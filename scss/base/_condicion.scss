@@ -1,0 +1,24 @@
+@import 'listas';
+
+@mixin texto($colorIf){
+    color: $colorIf;
+    text-align: center;   
+    font-weight: bold;
+    
+    @if $colorIf == black {
+    font-family:'tipo3';
+    font-size: nth($tamañoP,1 );
+    text-shadow: 4px 4px 2px rgb(255, 255, 255);
+        
+    }@else if $colorIf == rgb(68, 11, 11) {
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: nth($tamañoP,2);     
+    }
+    @else{
+        font-size: 25px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
+        
+       
+    }
+}
