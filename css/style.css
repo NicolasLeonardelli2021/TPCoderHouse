@@ -404,4 +404,22 @@ ul.lista-servicios {
   margin-bottom: 20px;
 }
 
+label {
+  color: #9e8707;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+
+.textoContacto {
+  color: #574a02;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+
 /*# sourceMappingURL=style.css.map */

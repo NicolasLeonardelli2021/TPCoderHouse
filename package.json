@@ -7,5 +7,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasLeonardelli2021/TPCoderHouse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NicolasLeonardelli2021/TPCoderHouse/issues"
+  },
+  "homepage": "https://github.com/NicolasLeonardelli2021/TPCoderHouse#readme",
   "description": ""
 }
