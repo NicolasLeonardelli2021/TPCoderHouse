@@ -1,9 +1,0 @@
-@import '../base/condicion';
-
-label{
-    @include texto(rgb(158, 135, 7));
-}
-
-.textoContacto{
-    @include texto(rgb(87, 74, 2));
-}
