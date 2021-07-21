@@ -1,18 +1,492 @@
-/* Error: expected "{".
- *   ,
- * 6 |    height: 50px;
- *   |                ^
- *   '
- *   scss\components\_footer.scss 6:16  @import
- *   scss\style.scss 2:9                root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a   \2577 \a 6 \2502     height: 50px;\d\a   \2502                 ^\a   \2575 \a   scss\\components\\_footer.scss 6:16  @import\a   scss\\style.scss 2:9                root stylesheet';
+/* barra superior */
+.barra {
+  background-color: red;
 }
+.barra div p {
+  margin-left: 10px;
+  margin-top: 10px;
+  color: white;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.barra div a {
+  text-decoration: none;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: white;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+/* CARRUSEL*/
+.carru {
+  background-color: #000000;
+}
+
+/*FOOTER */
+footer {
+  background: #010204;
+  background: radial-gradient(circle, #010204 0%, #c72020 100%);
+  height: 50px;
+}
+footer .div-footer {
+  display: inline-block;
+}
+footer .div-footer section {
+  position: relative;
+  margin-left: 300px;
+}
+footer .div-footer section a {
+  color: white;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+footer .div-footer section a:hover {
+  background-color: #fa0202;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+.b-menu {
+  width: auto;
+  margin-top: 50px;
+  background-color: rgba(255, 255, 255, 0.384);
+  border: 10px groove #ff4343;
+}
+
+.menu {
+  width: 100%;
+  background-color: red;
+}
+
+.empresa, .principal, .mapa {
+  background-color: rgba(255, 255, 255, 0.425);
+  margin-top: 30px;
+  border: 10px groove #ff4343;
+}
+
+/* Menu */
+.menu a:hover {
+  background-color: black;
+}
+
+/* barra superior */
+.barra {
+  background-color: red;
+}
+.barra div p {
+  margin-left: 10px;
+  margin-top: 10px;
+  color: white;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.barra div a {
+  text-decoration: none;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: white;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+/* CARRUSEL*/
+.carru {
+  background-color: #000000;
+}
+
+/*FOOTER */
+footer {
+  background: #010204;
+  background: radial-gradient(circle, #010204 0%, #c72020 100%);
+  height: 50px;
+}
+footer .div-footer {
+  display: inline-block;
+}
+footer .div-footer section {
+  position: relative;
+  margin-left: 300px;
+}
+footer .div-footer section a {
+  color: white;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+footer .div-footer section a:hover {
+  background-color: #fa0202;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+.b-menu {
+  width: auto;
+  margin-top: 50px;
+  background-color: rgba(255, 255, 255, 0.384);
+  border: 10px groove #ff4343;
+}
+
+.menu {
+  width: 100%;
+  background-color: red;
+}
+
+.empresa, .principal, .mapa {
+  background-color: rgba(255, 255, 255, 0.425);
+  margin-top: 30px;
+  border: 10px groove #ff4343;
+}
+
+/* Menu */
+.menu a:hover {
+  background-color: black;
+}
+
+/* Principal */
+@font-face {
+  font-family: "tipo1";
+  src: url("../tipogragia/GoblinOne-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: "tipo2";
+  src: url("../tipogragia/BerkshireSwash-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: "tipo3";
+  src: url("../tipogragia/AbrilFatface-Regular.ttf") format("opentype");
+}
+.b-menu {
+  width: auto;
+  margin-top: 50px;
+  background-color: rgba(255, 255, 255, 0.384);
+  border: 10px groove #ff4343;
+}
+
+.menu {
+  width: 100%;
+  background-color: red;
+}
+
+.empresa, .principal, .mapa {
+  background-color: rgba(255, 255, 255, 0.425);
+  margin-top: 30px;
+  border: 10px groove #ff4343;
+}
+
+.contenedor {
+  background-image: url("../Imagenes/Concordia.jpg");
+}
+
+h1 {
+  text-shadow: black;
+  color: #bd0000;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "tipo1", Verdana, Tahoma, sans-serif;
+  font-style: italic;
+  font-size: 40px;
+  text-decoration: underline;
+  text-shadow: -5px 3px 0px rgba(14, 13, 13, 0.6);
+}
+
+.principal p {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-family: "tipo3";
+  font-size: 30px;
+  text-shadow: 4px 4px 2px white;
+}
+
+h2 {
+  text-shadow: black;
+  color: #bd0000;
+  font-size: 40px;
+  font-family: "tipo1", Arial, Helvetica, sans-serif;
+  text-shadow: -6px 9px 3px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.iframe {
+  width: auto;
+  height: auto;
+}
+
+.b-menu {
+  width: auto;
+  margin-top: 50px;
+  background-color: rgba(255, 255, 255, 0.384);
+  border: 10px groove #ff4343;
+}
+
+.menu {
+  width: 100%;
+  background-color: red;
+}
+
+.empresa, .principal, .mapa {
+  background-color: rgba(255, 255, 255, 0.425);
+  margin-top: 30px;
+  border: 10px groove #ff4343;
+}
+
+/* empresa */
+.contenedor1 {
+  background-image: url("../Imagenes/concordia-costanera.jpg");
+  background-size: cover;
+}
+
+.empresa p {
+  color: #440b0b;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+/* -----------------------flota -------------------------------------*/
+/* APLICANDO GRID */
+.contenedor2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 250px 2fr;
+  background: #020024;
+  background: linear-gradient(180deg, #020024 22%, red 89%);
+}
+
+.titulo-f {
+  margin-top: 130px;
+}
+.titulo-f h2 {
+  text-shadow: -6px 9px 3px rgba(146, 146, 146, 0.6);
+  font-size: 55px;
+}
+
+/*
+    .text-flota{
+        @include texto(rgb(172, 241, 11));
+
+    }
+    */
+.imagenes-f {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 1em;
+  width: 90%;
+  height: 90vh;
+  background-color: #000000;
+  padding: 1em;
+  margin: auto;
+}
+
+.imagenes-f img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 250ms;
+  border-radius: 15px;
+}
+
+.imagenes-f img:hover {
+  transform: scale(1.05);
+  z-index: 1;
+  box-shadow: 5px 5px 15px #ffffff;
+}
+
+.img1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.img2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.img3 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.img4 {
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.img5 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.img6 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.img7 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.img8 {
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.texto-f {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 400px) {
+  html {
+    width: 100vw;
+  }
+
+  .main-flota {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 250px 8fr;
+  }
+
+  .imagenes-f {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 640px) {
+  .imagenes-f {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(84, 1fr);
+    grid-gap: 1em;
+    width: 90%;
+    background-color: #000000;
+    padding: 1em;
+    margin: auto;
+  }
+
+  .img1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .img2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .img3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 7;
+  }
+
+  .img4 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 7;
+  }
+
+  .img5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+  }
+
+  .img6 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+  }
+
+  .img7 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 9;
+  }
+
+  .img8 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 9;
+  }
+}
+.contenedor3 {
+  background: #020024;
+  background: linear-gradient(179deg, #020024 22%, red 143%);
+}
+
+ul.lista-servicios {
+  list-style-image: url("../Imagenes/tilde5-1.gif");
+  padding-left: 500px;
+  color: #193804;
+  font-family: serif;
+  font-size: 30px;
+  text-shadow: 2px 0px 0px rgba(238, 234, 15, 0.6);
+}
+
+.text-serv {
+  text-align: center;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+label {
+  color: #9e8707;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+
+.textoContacto {
+  color: #574a02;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=style.css.map */

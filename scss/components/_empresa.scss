@@ -1,0 +1,19 @@
+@import '../base/extend';
+@import '../base/condicion';
+/* empresa */
+.contenedor1{   
+    background-image: nth($imgFondos, 2);
+    background-size:cover;
+}
+
+
+.empresa{
+    @extend %cuadro;
+}
+
+.empresa{
+    p{
+        @include texto(rgb(68, 11, 11));
+        
+    }
+}
