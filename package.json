@@ -1,7 +1,6 @@
 {
   "name": "public_html",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,6 @@
   "bugs": {
     "url": "https://github.com/NicolasLeonardelli2021/TPCoderHouse/issues"
   },
-  "homepage": "https://github.com/NicolasLeonardelli2021/TPCoderHouse#readme"
+  "homepage": "https://github.com/NicolasLeonardelli2021/TPCoderHouse#readme",
+  "description": ""
 }
